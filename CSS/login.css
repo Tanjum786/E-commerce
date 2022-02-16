@@ -12,7 +12,8 @@
     justify-content: center;
 }
 
-.login_btn {
+.login_btn,
+.login_signup_name {
     text-align: center;
 }
 
@@ -33,7 +34,6 @@
 
 .login_signup_name {
     font-family: var(--secondary-font);
-    text-align: center;
     font-size: 2rem;
 }
 
