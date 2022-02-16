@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup | E-Galaxy-store</title>
+    <link rel="stylesheet" href="https://css-ui-galaxy-c.netlify.app/CSS/base.css">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <script src="https://kit.fontawesome.com/8ddd15368f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="e_container">
+        <nav class="nav_bar">
+            <div>
+                <a href="/index.html">
+                    <h1 class="e_website_name">E-Galaxy-store</h1>
+                    <h5 class="ui_tagline">Find it, love it, buy it.</h5>
+                </a>
+
+            </div>
+            <div class="search">
+                <button>
+                    <i class="fa fa-search"></i>
+                </button>
+                <input type="text" placeholder=" Search Your Desier" name="search">
+            </div>
+            <div>
+                <ul class="nav_list">
+                    <li><a class="product_btn" href="/">Products</a></li>
+                    <li><a class="login_btn" href="/pages/login.html">Login</a></li>
+                    <li class="list-item-inline"><a href="/"><i class="icon_nav fa fa-heart-o"></i></a></li>
+                    <li class="list-item-inline"><a href="/"><i class="icon_nav fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="list-item-inline"><a href="/pages/forgot_pass.html"><i
+                                class="icon_nav fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="e_login_signup_container">
+            <form>
+                <div class="login_signup_container signup_container">
+                    <h1 class="login_signup_name">Sign Up</h1>
+                    <label for="firstname">First Name<small class="star_color">*</small></label>
+                    <input type="text" name="text" class="input_filed" placeholder="Enter you first name" id="firstname"
+                        required>
+                    <label for="lastname">Last Name<small class="star_color">*</small></label>
+                    <input type="text" name="text" class="input_filed" placeholder="Enter your Last name" required>
+                    <label for="Email">Email<small class="star_color">*</small></label>
+                    <input type="email" name="email" class="input_filed" placeholder="demo@demo.com">
+                    <label for="password_singup">Password<small class="star_color">*</small></label>
+                    <input type="text" name="password" class="input_filed" placeholder="Enter your password" required>
+                    <label for="Confirm_pass">Confirm password<small class="star_color">*</small></label>
+                    <input type="password" name="password" class="input_filed" placeholder="Enter your password again"
+                        required>
+                    <div class="checkbox_section">
+                        <input type="checkbox" name="checkbox" class="input_filed" required>
+                        <label for="Terms">I accept all Terms & Conditions</label>
+                    </div>
+                    <button type="submit" class="login_btn  btn_style"><a href="/">Register</a></button>
+                    <p class="new_account_link">Already have account? <a class="alert_primary"
+                            href="/pages/login.html">Login Here</a></p>
+                </div>
+            </form>
+        </section>
+    </div>
+
+</body>
+
+</html>
