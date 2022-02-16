@@ -1,0 +1,21 @@
+@import url(/CSS/style.css);
+.cart_container{
+    background-color: var(--background-color);
+}
+
+.cart_card_container{
+    border: 1px solid black;
+    background-color: var(--pureWhite-color);
+    display: flex;
+    margin-top: 5rem;
+    width: 50%;
+
+}
+.img_container{
+    border-right: 1px solid var(--boder-color);
+    background-image: none;
+}
+.cart_img{
+    height: 20rem;
+    padding: 0;
+}
