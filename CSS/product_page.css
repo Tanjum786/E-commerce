@@ -1,46 +1,145 @@
 @import url(/CSS/style.css);
-.product_container{
-    /* margin-top: 1rem; */
-}
-.product_lists{
-    list-style: none;
-}
-.fillter_container{
-    width: 20%;
-    border-right: 1px solid var(--boder-color);
-    font-size: 1rem;
-    padding-left: 2rem;
+@import url(/CSS/wishlist.css);
+@import url(/CSS/cart.css);
+.prouct_card_list {
     background-color: var(--background-color);
-    position: sticky;
-    top: 0;
+    margin: 1rem;
+    
 }
-.product_title{
+
+.all_cards_container,
+.product_title,.landscap_card_container,
+.price_range,
+.product_card_details,
+.price_list,
+.product_container,
+.product_wishlist_icon,
+.containt_list {
     display: flex;
-    justify-content: space-between;
 }
-.price_range{
-    display: flex;
+
+.price_range,
+.product_card_details,
+.containt_list {
     flex-direction: column;
 }
-.price_list{
-    display: flex;
+
+.price_list,
+.product_title {
     justify-content: space-between;
 }
-.prices{
+
+.prices,
+.fillter_container,
+.clear_btn {
     font-size: 1rem;
+}
+
+.prices,
+.clear_btn {
     padding: 1rem;
+}
+
+.containt_list,
+.product_card_details {
+    gap: 1rem;
+}
+
+.fillter_container,
+.landscap_card_container,
+.add_to_cart,
+.product_card {
+    background-color: var(--pureWhite-color);
+}
+
+.fillter_container {
+    width: 50%;
+    border-right: 1px solid var(--boder-color);
+    padding: 2rem;
+}
+
+.prices {
     color: var(--gray-color);
 }
-.containt_list{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+
+.product_lists {
+    list-style: none;
+}
+
+.containt_list {
     padding-top: 1rem;
 }
-.clear_btn{
- font-weight: bold;
- text-decoration: underline;
- font-size: 1rem;
- padding: 1rem;
- color: var(--secondary-color);
+
+.clear_btn {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+.product_card,
+.landscap_card_container {
+    width: 15rem;
+    box-shadow: 2px 2px 2px 2px var(--boder-color);
+    margin-top: 2rem;
+}
+
+.product_card_img {
+    position: relative;
+    border-bottom: 1px solid var(--boder-color);
+}
+
+.product_wishlist_icon {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid var(--boder-color);
+    border-radius: 50%;
+}
+
+.product_card_details {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.add_to_cart {
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0.5px solid var(--lightblue-color);
+}
+
+.add_to_cart:hover {
+    background-color: var(--lightblue-color);
+    color: var(--pureWhite-color);
+}
+
+.all_cards_container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.landscap_card_container {
+    width: 35rem;
+    height: 15.3rem;
+}
+
+.landscap_img {
+    width: 15rem;
+    border-right: 1px solid var(--boder-color);
+}
+
+.landscap_cards,.price_info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.price_info{
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+
 }
