@@ -104,7 +104,7 @@
 .input_num {
     width: 3rem;
     padding: 0;
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     text-align: center;
 }
 
