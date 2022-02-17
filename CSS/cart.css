@@ -2,6 +2,7 @@
 @import url(/CSS/wishlist.css);
 
 .cart_card_container,
+.cart_quantity,
 .li_flex,
 .cart_container,
 .cart_price,
@@ -63,8 +64,13 @@
     background-color: var(--background-color);
 }
 
-.cart_card_container,.btn_cart {
+.cart_card_container,
+.btn_cart {
     border-radius: 0.5rem;
+}
+
+.cart_quantity {
+    gap: 0.5rem;
 }
 
 .cart_img {
@@ -97,6 +103,8 @@
 
 .input_num {
     width: 3rem;
+    padding: 0;
+    border: 1px solid black;
     text-align: center;
 }
 
@@ -143,4 +151,3 @@
     margin: 1rem;
     border: none;
 }
-
