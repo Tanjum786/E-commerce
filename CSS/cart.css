@@ -58,13 +58,12 @@
 }
 
 .cart_container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin:2rem 2rem;
     justify-content: space-evenly;
     background-color: var(--background-color);
 }
 
-.cart_card_container,
+.cart_card_container,   
 .btn_cart {
     border-radius: 0.5rem;
 }
