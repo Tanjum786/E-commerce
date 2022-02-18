@@ -1,11 +1,4 @@
-@import url(/CSS/style.css);
-
-.e_login_signup_container,
-.password_section,
-.login_signup_container {
-    display: flex;
-    flex-wrap: wrap;
-}
+@import url(/main.css);
 
 .e_login_signup_container {
     margin-top: 5rem;
@@ -15,10 +8,10 @@
 .login_btn,
 .login_signup_name {
     text-align: center;
+    border: none;
 }
 
 .new_account_link {
-    font-size: 1rem;
     position: absolute;
     bottom: 0rem;
     left: 0rem;
@@ -39,7 +32,6 @@
 
 .login_signup_container {
     flex-direction: column;
-    gap: 1rem;
 }
 
 .forget_password {
@@ -53,8 +45,8 @@
 }
 
 .input_filed {
-    padding: 0.5rem;
     border-radius: 4px;
+    border: 1px solid var(--black-color);
 }
 
 .btn_style {
@@ -69,6 +61,5 @@
 .star_color {
     color: var(--danger-alert-color);
     text-decoration: none;
-    font-size: 1rem;
     font-weight: bold;
 }

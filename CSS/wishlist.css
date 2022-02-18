@@ -1,12 +1,4 @@
-@import url(/CSS/style.css);
-
-.wishlist_container,
-.btn_container,
-.price_container,
-.wishlist_card_details,
-.wishlist_icon {
-    display: flex;
-}
+@import url(/main.css);
 
 .wishlist_card_details,
 .wishlist_icon,
@@ -30,13 +22,6 @@
 .headline {
     text-align: center;
 }
-
-.price_tag,
-.e_secondary_btn,
-.wishlist_card_details {
-    padding: 0.5rem;
-}
-
 
 .wishlist_container {
     background-color: var(--background-color);
@@ -81,15 +66,14 @@
 .e_secondary_btn {
     width: 100%;
     border-radius: 0.4rem;
-    color:var(--lightblue-color);
+    color: var(--lightblue-color);
     background-color: var(--pureWhite-color);
-    border: 1px solid
-    var(--lightblue-color);
+    border: 1px solid var(--lightblue-color);
 }
 
 .e_secondary_btn:hover {
-    background-color:var(--lightblue-color);
-    color:var(--pureWhite-color);
+    background-color: var(--lightblue-color);
+    color: var(--pureWhite-color);
 }
 
 .cart_btn {

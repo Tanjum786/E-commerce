@@ -1,6 +1,4 @@
-@import url(/CSS/style.css);
-@import url(/CSS/wishlist.css);
-@import url(/CSS/cart.css);
+@import url(/main.css);
 
 .product_card_list {
     background-color: var(--background-color);

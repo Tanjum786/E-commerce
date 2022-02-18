@@ -1,5 +1,4 @@
-@import url(/CSS/style.css);
-@import url(/CSS/wishlist.css);
+@import url(/main.css);
 
 .cart_card_container,
 .cart_quantity,
@@ -7,7 +6,6 @@
 .cart_container,
 .cart_price,
 .cart_btns {
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -21,20 +19,6 @@
 .cart_wishlist_btn:hover {
     background-color: var(--lightblue-color);
     color: var(--pureWhite-color);
-}
-
-.cart_card_container,
-.price_detailes_container,
-.qunt_btn,
-.cart_wishlist_btn {
-    background-color: var(--pureWhite-color);
-}
-
-.btn_cart,
-.cart_items,
-.input_num,
-.qunt_btn {
-    font-size: 1rem;
 }
 
 .img_container {
@@ -58,12 +42,12 @@
 }
 
 .cart_container {
-    margin:2rem 2rem;
+    margin: 2rem 2rem;
     justify-content: space-evenly;
     background-color: var(--background-color);
 }
 
-.cart_card_container,   
+.cart_card_container,
 .btn_cart {
     border-radius: 0.5rem;
 }
