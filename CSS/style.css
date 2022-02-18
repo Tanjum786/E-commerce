@@ -194,18 +194,63 @@ h5,
 }
 
 /* @media (max-width:320px) {
+    body {
+        width: 100%;
+    }
+
+    .nav_bar {
+        height: 10rem;
+    }
+
+    .e_website_name,
+    .sale_tagline {
+        font-size: 1rem;
+    }
 
     .search button,
     .search input[type=text] {
         margin-top: 0px;
         padding: 4px;
     }
-    .search input[type=text]{
-        width: 20rem;
-    } 
-    .shopnow_btn {
-        position: absolute;
-        bottom: -2rem;
+
+    .search input[type=text] {
+        width: 15rem;
     }
 
+    .shopnow_btn {
+        bottom: -0.5rem;
+        right: 9rem;
+        font-size: 0.5rem;
+    }
+
+    .nav_list {
+        gap: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .badge_cart,
+    .badge_wishlist {
+        bottom: 1.5rem;
+        right: 2.5rem;
+        font-size: 0.5rem;
+    }
+
+    .badge_wishlist {
+        right: 5rem;
+    }
+
+    .ui_tagline {
+        font-size: 0.5rem;
+    }
+
+    .product_btn,
+    .login_btn {
+        font-size: 0.5rem;
+    }
+
+    .offer {
+        font-size: 1rem;
+        width: 15rem;
+        margin: 1rem;
+    }
 } */
