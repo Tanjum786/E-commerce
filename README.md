@@ -23,6 +23,6 @@ E-Galaxy-Store is a e-commerce website.
   
     
 # **Live link**
-    - [E-Galaxy-Store](https://e-galaxy-store.netlify.app/)
+- [E-Galaxy-Store](https://e-galaxy-store.netlify.app/)
 
 
