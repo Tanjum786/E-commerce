@@ -178,7 +178,7 @@ h5,
     right: 7rem;
 }
 
-/* @media (max-width:768px) {
+@media (max-width:768px) {
     .e_website_name {
         font-size: 1.5rem;
     }
@@ -191,7 +191,7 @@ h5,
         position: absolute;
         bottom: 0.5rem;
     }
-} */
+}
 
 /* @media (max-width:320px) {
 

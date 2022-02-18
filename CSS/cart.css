@@ -134,9 +134,9 @@
     margin: 1rem;
     border: none;
 }
-/* @media (max-width:768px) {
+@media (max-width:768px) {
     .price_detailes_container{
         width: 50%;
     }
     
-} */
+}
