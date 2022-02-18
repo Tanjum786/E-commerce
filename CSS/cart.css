@@ -99,7 +99,6 @@
 .cart_btns {
     flex-direction: column;
     padding-top: 2rem;
-    gap: 1rem;
 }
 
 .btn_cart {
@@ -133,4 +132,10 @@
     padding: 0.5rem;
     margin: 1rem;
     border: none;
+}
+@media (max-width:768px) {
+    .price_detailes_container{
+        width: 50%;
+    }
+    
 }

@@ -1,7 +1,5 @@
 @import url(/main.css);
-/* html{
-    font-size: 62.5%;
-} */
+
 body,
 footer,
 .advertise_sale,
@@ -180,10 +178,35 @@ h5,
     right: 7rem;
 }
 
-
-/* @media(max-width:320px) {
-    html{
-        font-size: 25%;
+@media (max-width:768px) {
+    .e_website_name {
+        font-size: 1.5rem;
     }
-    
-} */
+
+    .search input[type=text] {
+        width: 10rem;
+    }
+
+    .shopnow_btn {
+        position: absolute;
+        bottom: 0.5rem;
+    }
+}
+
+@media (max-width:320px) {
+
+    .search button,
+    .search input[type=text] {
+        margin-top: 0px;
+        background: var(--white-color);
+        font-size: 1rem;
+        border: none;
+        width: 20rem;
+        padding: 1px;
+    }
+    /* .search input[type=text]{
+        width: 20rem;
+        padding: 1px;
+    }  */
+
+}
