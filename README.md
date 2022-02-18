@@ -21,7 +21,7 @@ E-Galaxy-Store is a e-commerce website.
     2. login
     3. profil
     
-**Live link**
+#**Live link**
 - [E-Galaxy-Store](https://e-galaxy-store.netlify.app/)
 
 
