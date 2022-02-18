@@ -37,6 +37,7 @@
     padding: 0.5rem;
 }
 
+
 .wishlist_container {
     background-color: var(--background-color);
     padding: 2rem;
@@ -54,7 +55,7 @@
     width: 20rem;
     box-shadow: 1px 1px 4px 1px var(--secondary-color);
     border-radius: 0.5rem;
-    background-color: var(--white-color);
+    background-color: var(--pureWhite-color);
 }
 
 .wishlist_img {
@@ -81,15 +82,14 @@
     width: 100%;
     border-radius: 0.4rem;
     color:var(--lightblue-color);
-    background-color: var(--white-color);
+    background-color: var(--pureWhite-color);
     border: 1px solid
     var(--lightblue-color);
-    background-color: var(--white-color);
 }
 
 .e_secondary_btn:hover {
     background-color:var(--lightblue-color);
-    color:var(--white-color);
+    color:var(--pureWhite-color);
 }
 
 .cart_btn {

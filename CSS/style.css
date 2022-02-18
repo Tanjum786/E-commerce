@@ -167,3 +167,24 @@ h5,
 .list-item-inline:hover {
     background-color: var(--boder-color);
 }
+.nav_list{
+    position: relative;
+}
+.badge_cart,.badge_wishlist{
+    position: absolute;
+    bottom:1.9rem;
+    right: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    font-size: 1rem;
+    background-color:var(--golden-color);
+    color: var(--black-color);
+    border-radius: 50%;
+}
+.badge_wishlist{
+    right:7rem;
+}
