@@ -1,5 +1,7 @@
 @import url(/main.css);
-
+/* html{
+    font-size: 62.5%;
+} */
 body,
 footer,
 .advertise_sale,
@@ -177,3 +179,11 @@ h5,
 .badge_wishlist {
     right: 7rem;
 }
+
+
+/* @media(max-width:320px) {
+    html{
+        font-size: 25%;
+    }
+    
+} */
