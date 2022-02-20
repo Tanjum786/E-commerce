@@ -173,6 +173,10 @@ h5,
     color: var(--black-color);
     border-radius: 50%;
 }
+.search{
+    border: none;
+    box-shadow: 2px 2px 2px 2px var(--gray-color);
+}
 
 .badge_wishlist {
     right: 7rem;
