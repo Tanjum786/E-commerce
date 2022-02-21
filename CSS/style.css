@@ -197,7 +197,7 @@ h5,
     }
 }
 
-/* @media (max-width:320px) {
+@media screen and (max-width:320px) {
     body {
         width: 100%;
     }
@@ -257,4 +257,8 @@ h5,
         width: 15rem;
         margin: 1rem;
     }
-} */
+    p{
+        padding: 0.3rem;
+        font-size: 1rem;
+    }
+}
