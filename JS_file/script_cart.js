@@ -7,5 +7,7 @@ btn_increase.addEventListener("click", () => {
 })
 btn_decrease.addEventListener("click", () => {
     var input_num_count = Number(input_num.innerText);
-    input_num.innerText = input_num_count - 1
+    if (input_num_count > 0) {
+        input_num.innerText = input_num_count - 1
+    }
 })
