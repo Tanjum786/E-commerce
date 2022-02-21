@@ -25,7 +25,7 @@ E-Galaxy-Store is a e-commerce website.
 # **Live link**
 - [E-Galaxy-Store](https://e-galaxy-store.netlify.app/)
 
-# vedio 
+# video 
 
 
 https://user-images.githubusercontent.com/84380051/154945020-797d223e-081c-4eab-8ed4-41f83ebec9ec.mp4
